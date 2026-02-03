@@ -43,7 +43,6 @@ public class UserModel implements UserDetails {
     @Size(min = 6, message = "La contraseña debe tener al menos 6 caracteres")
     private String password;
 
-    @NotBlank(message = "Debe asignarle un role a su cuenta")
     private List<String> roles;
     private boolean enabled;
     private Date fechaCreacion;
