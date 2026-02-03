@@ -1,7 +1,5 @@
 package com.example.api_rest.dtos;
 
-import java.util.List;
-
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -25,7 +23,4 @@ public class RegisterRequest {
     @NotBlank(message = "La contraseña es obligatoria")
     @Size(min = 6, message = "La contraseña debe tener al menos 6 caracteres")
     private String password;
-
-    // @NotBlank(message = "Debe asignarle un role a su cuenta")
-    private List<String> roles;
 }
