@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.api_rest.models.UserModel;
+import com.example.api_rest.models.auth.UserModel;
 
 @RestController
 @RequestMapping("/api/users")

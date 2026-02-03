@@ -1,4 +1,4 @@
-package com.example.api_rest.models;
+package com.example.api_rest.models.auth;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

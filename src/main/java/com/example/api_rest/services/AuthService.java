@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.example.api_rest.dtos.request.AuthRequest;
 import com.example.api_rest.dtos.request.RegisterRequest;
 import com.example.api_rest.dtos.response.AuthResponse;
-import com.example.api_rest.models.UserModel;
+import com.example.api_rest.models.auth.UserModel;
 import com.example.api_rest.security.JwtUtil;
 
 import lombok.RequiredArgsConstructor;

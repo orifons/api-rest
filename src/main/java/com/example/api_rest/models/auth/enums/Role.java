@@ -1,4 +1,4 @@
-package com.example.api_rest.models.enums;
+package com.example.api_rest.models.auth.enums;
 
 public enum Role {
     USER,
