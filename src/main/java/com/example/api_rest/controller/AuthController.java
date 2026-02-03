@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.api_rest.dtos.AuthRequest;
-import com.example.api_rest.dtos.AuthResponse;
-import com.example.api_rest.dtos.RegisterRequest;
+import com.example.api_rest.dtos.request.AuthRequest;
+import com.example.api_rest.dtos.request.RegisterRequest;
+import com.example.api_rest.dtos.response.AuthResponse;
 import com.example.api_rest.services.AuthService;
 
 import jakarta.validation.Valid;

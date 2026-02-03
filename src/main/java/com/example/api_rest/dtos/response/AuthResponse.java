@@ -1,4 +1,4 @@
-package com.example.api_rest.dtos;
+package com.example.api_rest.dtos.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

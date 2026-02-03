@@ -1,4 +1,4 @@
-package com.example.api_rest.dtos;
+package com.example.api_rest.dtos.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
